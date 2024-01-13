@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "client"
+version = "0.1.0"
+description = "Client for chat with AI"
+authors = ["sergiokapone <sergiy.ponomarenko@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.29.0"
+protobuf = "3.20.0"
+requests = "^2.31.0"
+openai = "^1.6.1"
+fastapi = "^0.108.0"
+streamlit-chat = "^0.1.1"
+pydantic = "^2.5.3"
+pydantic-settings = "^2.1.0"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.25"}
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

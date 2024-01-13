@@ -1,0 +1,8 @@
+.idea/
+.vscode/
+.venv/
+.env
+chromadb/
+__pycache__/
+server/alembic/__pycache__/
+.pdf
